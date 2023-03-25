@@ -2,15 +2,18 @@
     "posts": [
         {
             "title": "post 1",
-            "description": "hfsdhgsvgsav usagdsays hjvsvc vaysys asyysc usgusd suvusdv"
+            "description": "hfsdhgsvgsav usagdsays hjvsvc vaysys asyysc usgusd suvusdv",
+            "imgSrc": "/assets/001.jpg"
         },
         {
             "title": "post 2",
-            "description": "hfsdhgsvgsav usagdsays hjvsvc vaysys asyysc usgusd suvusdv"
+            "description": "hfsdhgsvgsav usagdsays hjvsvc vaysys asyysc usgusd suvusdv",
+            "imgSrc": "/assets/002.jpg"
         },
         {
             "title": "post 3",
-            "description": "hfsdhgsvgsav usagdsays hjvsvc vaysys asyysc usgusd suvusdv"
+            "description": "hfsdhgsvgsav usagdsays hjvsvc vaysys asyysc usgusd suvusdv",
+            "imgSrc": "/assets/003.jpg"
         }
     ]
 }

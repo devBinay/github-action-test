@@ -1,4 +1,4 @@
-name: work flow test
+name: Deploy website
 on: push
 permissions:
   contents: write
@@ -6,12 +6,10 @@ jobs:
   test-workflow:
     runs-on: ubuntu-latest
     steps:
-      - name: test
-        run: echo 'Hello world'
       - name: checkout
         uses: actions/checkout@v3
-      - name: list
-        run: ls -a
+      - name: build
+        run: npm run build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
