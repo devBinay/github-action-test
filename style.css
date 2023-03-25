@@ -8,6 +8,7 @@
 .post img {
     border-radius: 1rem;
     flex: 1;
+    width: 100%;
 }
 
 .post .content {
