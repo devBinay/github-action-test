@@ -1,0 +1,9 @@
+.post {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.post img {
+    border-radius: 1rem;
+}
