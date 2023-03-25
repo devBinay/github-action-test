@@ -1,5 +1,7 @@
 name: work flow test
 on: push
+permissions:
+  contents: write
 jobs:
   test-workflow:
     runs-on: ubuntu-latest
