@@ -6,3 +6,5 @@ jobs:
     steps:
       - name: test
         run: echo 'Hello world'
+      - name: checkout
+        uses: action/checkout@v3
