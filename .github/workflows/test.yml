@@ -8,3 +8,5 @@ jobs:
         run: echo 'Hello world'
       - name: checkout
         uses: actions/checkout@v3
+      - name: list
+        run: ls -a
